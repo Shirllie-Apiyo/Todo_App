@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { ToDoComponent } from './to-do/to-do.component';
+import {ItemComponent} from './item/item.component';
 
 const routes: Routes = [
-  {path:'',redirectTo:'/todo', pathMatch:'full'},
-  {path:'todo',component:ToDoComponent },
+  {path:'',redirectTo:'/item', pathMatch:'full'},
+  {path:'item',component:ItemComponent },
 ];
 
 @NgModule({
